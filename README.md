@@ -55,7 +55,7 @@ Käytin seuraavia teknologioita: html, css, ...
 
 3) Numeroiden määrä ja numeroalue syötetään yhteiselle arvontafunktiolle, joka:<br>
         - Arpoo numerot satunnaislukugeneraattoria hyödyntäen<br>
-        - Varmistaa, että numero toistuu vain kerran samalla lottorivillä<br>
+        - Varmistaa, että numerot toistuvat vain kerran samalla lottorivillä<br>
         - Palauttaa valmiin rivin numerolistana
 
 4) Arvontafunktiota kutsutaan niin monta kertaa, kun rivejä halutaan.
@@ -63,6 +63,10 @@ Käytin seuraavia teknologioita: html, css, ...
 5) Tulostetaan arvotut rivit näytölle.
 
 6) Lopuksi käyttäjä pystyy valitsemaan haluaako hän tallentaa rivit vielä tiedostoon.
+
+<p>Vuokaavio</p>
+
+    ![Vuokaavio](/images/vuokaavio.png)
 
 <hr>
 
