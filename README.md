@@ -66,7 +66,7 @@ Käytin seuraavia teknologioita: html, css, ...
 
 <p>Vuokaavio</p>
 
-    ![Vuokaavio](/images/vuokaavio.png)
+    ![Vuokaavio](./images/vuokaavio.png)
 
 <hr>
 
