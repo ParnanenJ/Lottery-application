@@ -2,18 +2,13 @@ Tämä on repositorio Laurean "Ohjelmoinnin perusteet" -kurssin projektille.
 
 <hr>
 
-<h1>Projektin nimi</h1>
-Projektin nimi ja kaikki siihen osallistuneet tekijät
+<h1>Lottery application / Lotto sovellus</h1>
+Tekijä: Jiro Pärnänen
 
 <hr>
 
 <h3>Demo-linkki:</h3>
 Pääset sivustolleni osoitteessa google.com
-
-<hr>
-
-<h3>Työmäärän jakautuminen</h3>
-Miten työ jaettiin? Kuka teki mitä?
 
 <hr>
 
@@ -30,7 +25,9 @@ Lisenssi
 <hr>
 
 <h3>Tietoa sovelluksesta</h3>
-[Projektin nimi] on sovellus, joka...
+Lotto sovellus luo käyttäjälleen satunnaisia lottorivejä riippuen siitä mitä lottopeliä käyttäjä haluaa pelata.
+Sovelluksella voi luoda lottorivejä kolmelle eri lottopelille: Lotto, Vikinglotto, Eurojackpot.
+Käyttäjä pystyy luomaan kerralla 1-10 lottoriviä haluttuun peliin.
 
 <hr>
 
@@ -51,10 +48,28 @@ Käytin seuraavia teknologioita: html, css, ...
 <h3>Suunnittelu</h3>
 Kuvaile, miten lähestyit ongelmaa tai sovelluksen suunnittelua. Lisää tähän vuokaavio sovelluksen toiminnasta.
 
+1) Käyttäjältä kysytään mitä lottopeliä hän haluaa pelata ja kuinka monta riviä hän haluaa.
+
+2) Sovellus valitsee lottopeliä vastaavan funktion.
+    -> Funktio määrittää:
+        - Lottonumeroiden määrän ja numeroalueen
+        - Lisänumeroiden määrän ja numeroalueen
+
+3) Numeroiden määrä ja numeroalue syötetään edelleen yhteiselle arvontafunktiolle, joka:
+        - Arpoo numerot satunnaisluku generaattoria hyödyntäen
+        - Varmistaa, että numero toistuu vain kerran samalla lottorivillä
+        - Palauttaa valmiin rivin listana
+
+4) Arvontafunktiota kutsutaan niin monta kertaa kun rivejä halutaan.
+     
+5) Tulostetaan arvotut rivit näytölle.
+
+6) Lopuksi käyttäjä pystyy valitsemaan haluaako hän tallentaa rivit vielä tiedostoon.
+
 <hr>
 
 <h3>Tila</h3>
-[Projektin nimi] on vielä työn alla. Versio 2 julkaistaan pian.
+Lotto sovellus on vielä työn alla. Ei ole vielä julkaistu.
 
 <hr>
 
