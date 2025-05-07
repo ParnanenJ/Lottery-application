@@ -46,21 +46,19 @@ Käytin seuraavia teknologioita: html, css, ...
 <hr>
 
 <h3>Suunnittelu</h3>
-Kuvaile, miten lähestyit ongelmaa tai sovelluksen suunnittelua. Lisää tähän vuokaavio sovelluksen toiminnasta.
 
-1) Käyttäjältä kysytään mitä lottopeliä hän haluaa pelata ja kuinka monta riviä hän haluaa.
+1) Käyttäjältä kysytään, mitä lottopeliä hän haluaa pelata ja kuinka monta riviä hän haluaa (1-10).
 
-2) Sovellus valitsee lottopeliä vastaavan funktion.
-    -> Funktio määrittää:
-        - Lottonumeroiden määrän ja numeroalueen
+2) Sovellus valitsee lottopeliä vastaavat:<br>
+        - Lottonumeroiden määrän ja numeroalueen<br>
         - Lisänumeroiden määrän ja numeroalueen
 
-3) Numeroiden määrä ja numeroalue syötetään edelleen yhteiselle arvontafunktiolle, joka:
-        - Arpoo numerot satunnaisluku generaattoria hyödyntäen
-        - Varmistaa, että numero toistuu vain kerran samalla lottorivillä
-        - Palauttaa valmiin rivin listana
+3) Numeroiden määrä ja numeroalue syötetään yhteiselle arvontafunktiolle, joka:<br>
+        - Arpoo numerot satunnaislukugeneraattoria hyödyntäen<br>
+        - Varmistaa, että numero toistuu vain kerran samalla lottorivillä<br>
+        - Palauttaa valmiin rivin numerolistana
 
-4) Arvontafunktiota kutsutaan niin monta kertaa kun rivejä halutaan.
+4) Arvontafunktiota kutsutaan niin monta kertaa, kun rivejä halutaan.
      
 5) Tulostetaan arvotut rivit näytölle.
 
