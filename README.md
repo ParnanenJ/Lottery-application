@@ -64,7 +64,7 @@ Käytin seuraavia teknologioita: html, css, ...
 
 6) Lopuksi käyttäjä pystyy valitsemaan haluaako hän tallentaa rivit vielä tiedostoon.
 
-<p>Vuokaavio</p>
+<p>Vuokaavio:</p>
 
     ![Vuokaavio](./images/vuokaavio.png)
 
