@@ -1,7 +1,7 @@
 import random
 
-# satunnaisluku generaattori
-def generator(alku, loppu, numeroita,):
+# Päälottonumeroiden satunnaisluku generaattori
+def plgenerator(alku, loppu, numeroita,):
     lottorivi = []
     while len(lottorivi) != numeroita:
         arvottunum = random.randint(alku, loppu)
@@ -10,18 +10,27 @@ def generator(alku, loppu, numeroita,):
         lottorivi.append(arvottunum)
     return sorted(lottorivi)
 
+def llgenerator(alku, loppu, numeroita):
+    lisanumerot = []
+    while len(lisanumerot) != numeroita:
+        arvottunum = random.randint(alku, loppu)
+        if arvottunum in lisanumerot:
+            continue
+        lisanumerot.append(arvottunum)
+    return sorted(lisanumerot)
+
 # Lottorivien määrä
 def useampipeli(rivienmaara):
     lottorivit = {}
     if lottopeli == 1:
        for i in range(1, rivienmaara + 1):
-            lottorivit[f"Rivi {i}"] = generator(1, 40, 7)
+            lottorivit[f"Rivi {i}"] = plgenerator(1, 40, 7)
     elif lottopeli == 2:
         for i in range(1, rivienmaara + 1):
-            lottorivit[f"Rivi {i}"] = generator(1, 48, 6)
+            lottorivit[f"Rivi {i}"] = plgenerator(1, 48, 6), llgenerator(1, 5, 1)
     elif lottopeli == 3:
         for i in range(1, rivienmaara + 1):
-            lottorivit[f"Rivi {i}"] = generator(1, 50, 5)
+            lottorivit[f"Rivi {i}"] = plgenerator(1, 50, 5), llgenerator(1, 12, 2)
     return lottorivit
 
 # kysytään syötteet
