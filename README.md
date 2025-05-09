@@ -1,4 +1,4 @@
-Tämä on repositorio Laurean "Ohjelmoinnin perusteet" -kurssin projektille.
+# Tämä on repositorio Laurean "Ohjelmoinnin perusteet" -kurssin projektille.
 
 <hr>
 
