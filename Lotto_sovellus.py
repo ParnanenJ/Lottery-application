@@ -40,10 +40,15 @@ montalottoa = int(input("Montako lottoriviä haluat luoda (1-10): "))
 # suoritetaan lottorivien teko
 if lottopeli > 0 and lottopeli < 4:
     rivit= useampipeli(montalottoa)
-    print("\nLottorivisi:")
-    print("-------------------------")
+    print(f"\n{'=' * 35}")
+    print("Lottorivisi:")
+    print("=" * 35)
     for n, r in rivit.items():
-        print(f"{n}: {r}")
+        if lottopeli == 2 or lottopeli == 3:  # Jos kyseessä on tuple (VikingLotto tai Eurojackpot)
+            print(f"{n}: ", *r[0], "|", *r[1])
+        else:  # Jos kyseessä on tavallinen Lotto
+            print(f"{n}: ", *r)
+    print("=" * 35)
 else:
     print("Lottopeliä ei löytynyt :(")
 
