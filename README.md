@@ -66,7 +66,7 @@ Käytin seuraavia teknologioita: html, css, ...
 
 <p>Vuokaavio:</p>
 
-    ![Vuokaavio](./images/vuokaavio.png)
+![image](https://github.com/user-attachments/assets/3dc969f4-745f-4d04-9986-06d36c54ef24)
 
 <hr>
 
