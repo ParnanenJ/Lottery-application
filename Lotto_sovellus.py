@@ -71,7 +71,7 @@ if lottopeli > 0 and lottopeli < 4:
         if lottopeli == 2 or lottopeli == 3:  # Jos kyseessä on VikingLotto tai Eurojackpot
             pl = " ".join(f"{num:02}" for num in r[0])  # Pääpelin numerot
             ll = " ".join(f"{num:02}" for num in r[1])  # Lisänumerot
-            tulokset = f"{n}: {pl} | {ll}".center(36)   # Lisätään rivi muuttajaan tallennusta varten
+            tulokset += f"\n{n}: {pl} | {ll}".center(36)   # Lisätään rivi muuttajaan tallennusta varten
             print(f"{n}: {pl} | {ll}".center(36))
         else:  # Jos tavallinen Lotto
             pl = " ".join(f"{num:02}" if num >= 10 else f" {num}" for num in r)  # Yksittäiset numerot saavat eteen tyhjän
