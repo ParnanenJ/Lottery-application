@@ -12,18 +12,6 @@ Pääset sivustolleni osoitteessa google.com
 
 <hr>
 
-<h3>Sisällysluettelo:</h3>
-Tietoa sovelluksesta
-Kuvakaappaukset
-Teknologiat
-Asennus
-Suunnitelma / Vuokaavio
-Tila
-Lähteet ja tekijät
-Lisenssi
-
-<hr>
-
 <h3>Tietoa sovelluksesta</h3>
 Lotto sovellus luo käyttäjälleen satunnaisia lottorivejä riippuen siitä mitä lottopeliä käyttäjä haluaa pelata.
 Sovelluksella voi luoda lottorivejä kolmelle eri lottopelille: Lotto, Vikinglotto, Eurojackpot.
@@ -40,8 +28,8 @@ Kuva: Kelly Sikkema
 <hr>
 
 <h3>Teknologiat</h3>
-Kuvaile, mitä teknologioita käytettiin ja mikä rooli niillä oli projektissa.
-Käytin seuraavia teknologioita: html, css, ...
+
+Ohjelma on toteutettu `pythonilla`. Ohjelmassa on myös käytetty pythonin sisään rakennettua `"Random" moduulia`, joka luo satunnais numeroita.
 
 <hr>
 
@@ -71,19 +59,15 @@ Käytin seuraavia teknologioita: html, css, ...
 <hr>
 
 <h3>Tila</h3>
-Lotto sovellus on vielä työn alla. Ei ole vielä julkaistu.
+
+Lotto sovelluksen `versio 1` on valmis.
 
 <hr>
 
-<h3>Lähteet ja tekijät</h3>
-Lista osallistujista ja lähteistä, joita käytit projektin aikana. Mainitse myös, jos käytit ChatGPT:tä tai muita tekoälytyökaluja ja miten ne auttoivat sinua.
-
-John Doe
-Beginners guide to BEM
+<h3>Lähteet</h3>
+Sovelluksen tulostuksen asettelussa on hyödynnetty ChatGPT:tä
 
 <hr>
 
 <h3>Lisenssi</h3>
-Valitse projektiisi sopiva lisenssi tämän ohjeen avulla.
-
-Esimerkki: MIT-lisenssi © tekijä
+MIT-lisenssi © ParnanenJ
