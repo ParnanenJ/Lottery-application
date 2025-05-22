@@ -21,7 +21,7 @@ Käyttäjä pystyy luomaan kerralla 1-10 lottoriviä haluttuun peliin.
 
 <h3>Kuvakaappaukset</h3>
 Lisää tähän vähintään yksi kuvakaappaus toimivasta sovelluksesta
-![Kirjoitus](https://unsplash.com/photos/VBPzRgd7gfc)
+
 
 Kuva: Kelly Sikkema
 
