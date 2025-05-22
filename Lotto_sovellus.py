@@ -1,6 +1,6 @@
 import random
 
-# Päälottonumeroiden satunnaisluku generaattori
+# Satunnaisluku generaattori
 def plgenerator(alku, loppu, numeroita,):
     lottorivi = []
     while len(lottorivi) != numeroita: # Arvotaan niin monta numeroa kuin parametrille "numeroita" on annettu arvoksi
