@@ -42,8 +42,12 @@ def tallennus(tulokset):
 print("Tervetuloa lottosovellukseen!")
 while True:
     # kysytään syötteet
-    lottopeli = int(input("Tässä on lottopelimme:\n 1) Lotto\n 2) Vikinglotto\n 3) Eurojackpot\nValitse lottopeli (1-3): ")) # Peli
-    montalottoa = int(input("Montako lottoriviä haluat luoda (1-10): ")) # Rivien määrä
+    try:
+        lottopeli = int(input("Tässä on lottopelimme:\n 1) Lotto\n 2) Vikinglotto\n 3) Eurojackpot\nValitse lottopeli (1-3): ")) # Peli
+        montalottoa = int(input("Montako lottoriviä haluat luoda (1-10): ")) # Rivien määrä
+    except:
+        print("Virheellinen syöte.")
+        continue
 
     # Valitaan pelin nimi tulostukseen
     pelitulostus = ""
@@ -80,17 +84,20 @@ while True:
 
     # Jatketaanko pelaamista vai lopetetaanko se
     while True:
-        jatko = int(input("\nKiitos pelaamisesta!\n 1) Jatka pelaamista\n 2) Näytä tallennetut rivit\n 3) Lopeta\nValitse (1-3): "))
-        if jatko == 1: # Jatko
-            print("Jatketaan pelaamista.")
-            break
-        elif jatko == 2: # Tulostetaan tallennetut pelit
-            print("Tallennetut rivit:\n")
-            with open("Aiemmat_pelit.txt") as tiedosto:
-                print(tiedosto.read())
-        elif jatko == 3: # Lopetus
-            break   
-        else:
+        try:
+            jatko = int(input("\nKiitos pelaamisesta!\n 1) Jatka pelaamista\n 2) Näytä tallennetut rivit\n 3) Lopeta\nValitse (1-3): "))
+            if jatko == 1: # Jatko
+                print("Jatketaan pelaamista.")
+                break
+            elif jatko == 2: # Tulostetaan tallennetut pelit
+                print("Tallennetut rivit:\n")
+                with open("Aiemmat_pelit.txt") as tiedosto:
+                    print(tiedosto.read())
+            elif jatko == 3: # Lopetus
+                break   
+            else:
+                print("Syötettä ei tunnistettu.")
+        except:
             print("Syötettä ei tunnistettu.")
 
     if jatko == 3: # Lopetetaan sovelluksen suorittaminen
