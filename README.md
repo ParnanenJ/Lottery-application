@@ -8,7 +8,8 @@ Tekijä: Jiro Pärnänen
 <hr>
 
 <h3>Demo-linkki:</h3>
-Pääset sivustolleni osoitteessa google.com
+Video demo:
+https://video.laurea.fi/media/Lotto+sovellus+demo/0_wcbj7i64
 
 <hr>
 
