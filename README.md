@@ -25,9 +25,12 @@ Käyttäjä pystyy luomaan kerralla 1-10 lottoriviä haluttuun peliin.
 
 ![image](https://github.com/user-attachments/assets/27bba650-2b53-4224-9a29-3077e95d7317) ![image](https://github.com/user-attachments/assets/96388a0b-cc35-432a-bcf6-0a1edffd673d) ![image](https://github.com/user-attachments/assets/8c900d6a-e0ae-4b86-8869-f21b653427d7)
 
-<h5>Lottorivien tallentaminen ja niiden näyttäminen:</h5>
+<h5>Lottorivien tallentaminen:</h5>
 
 ![image](https://github.com/user-attachments/assets/14718218-4889-4d6c-8411-8710b5cfb27b) 
+
+<h5>Tallennettujen rivien näyttäminen:</h5>
+
 ![image](https://github.com/user-attachments/assets/991b6995-4ad3-489d-9a94-7e4afb2633bd)
 
 <h5>Lopetusvalikko:</h5>
