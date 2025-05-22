@@ -78,7 +78,8 @@ Lotto sovelluksen `versio 1` on valmis.
 <hr>
 
 <h3>Lähteet</h3>
-Sovelluksen tulostuksen asettelussa on hyödynnetty ChatGPT:tä
+- GeeksforGeeks. 2025. Random Numbers in Python. Viitattu 8.5.2025. https://www.geeksforgeeks.org/random-numbers-in-python/<br>
+- Sovelluksen tulostuksen asettelussa on hyödynnetty ChatGPT:tä
 
 <hr>
 
