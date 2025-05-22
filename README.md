@@ -22,6 +22,7 @@ Käyttäjä pystyy luomaan kerralla 1-10 lottoriviä haluttuun peliin.
 <h3>Kuvakaappaukset</h3>
 
 <h5>Lottopelien arpominen:</h5>
+
 ![image](https://github.com/user-attachments/assets/27bba650-2b53-4224-9a29-3077e95d7317) ![image](https://github.com/user-attachments/assets/96388a0b-cc35-432a-bcf6-0a1edffd673d) ![image](https://github.com/user-attachments/assets/8c900d6a-e0ae-4b86-8869-f21b653427d7)
 
 <h5>Lottorivien tallentaminen ja niiden näyttäminen:</h5>
